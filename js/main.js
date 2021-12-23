@@ -12,18 +12,28 @@ const clipboardBtn = document.getElementById('button-addon2').addEventListener('
   }, 700)
 })
 
+function updateLengthValue(value) {
+  document.getElementById('lengthVal').innerHTML = `${value} Characters`
+}
+
+function setIntialValue() {
+  document.getElementById('lengthVal').innerHTML =
+    document.getElementById('customRange2').value + ' ' + 'Characters'
+}
+
 const submitBtn = document.querySelector('#submitBtn').addEventListener('click', (e) => {
   e.preventDefault()
   const symbolsBtn = document.getElementById('btn-check-outlined1')
   const numbersBtn = document.getElementById('btn-check-outlined2')
   const LowerCaseBtn = document.getElementById('btn-check-outlined3')
   const UpperCaseBtn = document.getElementById('btn-check-outlined4')
+  const lengthRange = document.getElementById('customRange2')
   if (symbolsBtn.checked || numbersBtn.checked || UpperCaseBtn.checked || UpperCaseBtn.checked) {
     const password = generatePassword(
-      32,
+      lengthRange.value,
       symbolsBtn.checked,
       numbersBtn.checked,
-      UpperCaseBtn.checked,
+      LowerCaseBtn.checked,
       UpperCaseBtn.checked
     )
     const passwordTxt = document.getElementById('passwordTxt')
