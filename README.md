@@ -5,9 +5,7 @@ This project is meant to help users generate a strong password and use it for an
 
 
 
-## Authors
-
-- [James Q Quick](https://github.com/jamesqquick)
+## Author
 
 - [Navid Jalili](https://github.com/Navid-JL)
 
