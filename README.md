@@ -27,6 +27,3 @@ This project is meant to help users generate a strong password and use it for an
 
 :desktop_computer:
 ![Desktop Version](https://github.com/Navid-JL/passwordGenerator/blob/main/img/desktop.jpg?raw=true)
-
-:iphone:	
-![Desktop Version](https://github.com/Navid-JL/passwordGenerator/blob/main/img/mobile.png?raw=true)
