@@ -7,7 +7,6 @@ Generate a strong password to protect your accounts
 
 - [Navid Jalili](https://github.com/Navid-JL)
 
-## Screenshots
+## Screenshot
 
-:desktop_computer:
 ![Desktop Version](https://github.com/Navid-JL/passwordGenerator/blob/main/img/desktop.jpg?raw=true)
